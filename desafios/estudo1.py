@@ -16,10 +16,10 @@ print(frase.lower())#tudo minusculo
 print(frase.capitalize())
 print(frase.title())
 #frase1 = '   Aprenda Python  '
-#print(frase1.strip())#remove espaços desnecessários, se colocar um 'r'antes do strip elimina só os espaços da direita. se colocar um 'l', elimina os da esquerda.
 
 #divisão
 print(frase.split())#gera uma lista com todas as palavras em uma cadeia de caracteres. uma lista onde cada palavra/elemento é separada pelo seu split
+#''.join(frase.split()) elimina os espaços e junta tudo em uma string só
 
 #junção
 print(''.join(frase))#junta a frase
