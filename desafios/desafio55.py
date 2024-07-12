@@ -6,8 +6,8 @@ for p in range(0, 5):
     if p == 0:
         gordo = peso
         magro = peso
-    elif gordo < peso:
+    if gordo < peso:
         gordo = peso
-    elif magro > peso:
+    if magro > peso:
         magro = peso
 print('O {} é o mais pesado e {} é o menos.'.format(gordo, magro))
