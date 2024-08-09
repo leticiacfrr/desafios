@@ -4,6 +4,7 @@ frase = 'curso em video python' #cada caractere da string ocupa um micro espaço
 print(frase[9]) #acessando a posição 9 da string
 print(frase[9:21])#matematicamente para explicar como funciona o fatiamento entre dois pontos seria [9:21[
 print(frase[9:21:2])
+print(frase [::-1])#inverte a string
 print(frase[:5])#espaço vazio antes ou depois dos ":" significa ir do inicio ou do final
 print(len(frase))#contagem de carateres da frase
 print(frase.count('o'))#contagem de caractere individual
