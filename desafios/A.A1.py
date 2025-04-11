@@ -74,13 +74,13 @@ def cadastrar_aluno():
 
     aluno = Aluno(nome, matricula, cpf)
     
-    # escolha da disciplina com mostrador de displinas cadastradas
+    # escolha da disciplina com mostrador de disciplinas cadastradas
     print("\nEscolha as disciplinas para esse aluno (digite os códigos separados por vírgula):")
     for i, disc in enumerate(disciplinas):
         print(f"{disc.codigo} - {disc.nome}")
     codigos = input("Códigos das disciplinas: ").split(',')
 
-    #procura a disciplina e adição do aluno a displina
+    #procura a disciplina e adição do aluno a disciplina
     for cod in codigos:
         cod = cod.strip()
         for disc in disciplinas:
@@ -116,7 +116,7 @@ def listar_disciplinas():
     # Percorre todas as disciplinas cadastradas mostrando seu dados
     for disc in disciplinas:
         print(f'\nDisciplina: {disc.nome} ({disc.codigo})')
-        print(f'Duração: {disc.duracao}, Carga Horária: {disc.carga_horaria}')
+        print(f'Duração: {disc.duração}, Carga Horária: {disc.carga_horaria}')
         print(f'Professor: {disc.professor.nome if disc.professor else "Não atribuído"}')
         print('\nAlunos matriculados:')
         if disc.alunos:
@@ -132,7 +132,7 @@ def listar_professores():
     # Percorre todos os professores cadastrados e mostra seus dados
     for prof in professores:
         print(f'\nNome: {prof.nome}')
-        print(f'Titulação: {prof.titulacao}, Área de Pesquisa: {prof.areapesquisa}')
+        print(f'Titulação: {prof.titulação}, Área de Pesquisa: {prof.area_pesquisa}')
         print(f'Disciplinas Ministradas:')
         if prof.disciplinas:
             for disc in prof.disciplinas:
