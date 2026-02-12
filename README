@@ -1,1 +1,16 @@
-Este é um projeto de aprendizagem em python.
+# Desafios em Python 🐍
+
+Repositório de prática contínua em **Python**, com soluções de desafios para evoluir em **lógica**, **estruturas de dados** e **boas práticas**.
+
+## Objetivo
+Meu foco é evoluir para **Python Backend**, consolidando fundamentos importantes para construir APIs e sistemas reais.
+
+## Conteúdo
+- Exercícios e desafios organizados por tema (quando aplicável)
+- Soluções com foco em legibilidade
+- Evolução contínua (refatoração e melhorias)
+
+## Como usar
+```bash
+git clone https://github.com/leticiacfrr/desafios.git
+cd desafios
